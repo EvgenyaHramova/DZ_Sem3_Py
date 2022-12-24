@@ -10,7 +10,7 @@ n = int(input("Введите количество элементов списк
 rand_list = []
 for i in range(n):  # генерируем в цикле случайные числа в заданном количестве и диапазоне
     rand_list.append(random.randint(1, 21))
-print(rand_list)
+print('Сгенерирован следующий список: ', rand_list)
 
 sum = 0
 for j in range(len(rand_list)):
